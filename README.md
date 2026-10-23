@@ -20,22 +20,84 @@ I'm **Vivian**, a software developer based in Kenya. I build full-stack web apps
 
 ## 🛠️ Tech stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,python,html,css,react,nextjs,tailwind,vite,nodejs,flask,postgres,sqlite&theme=dark&perline=13" />
-  <br/><br/>
-  <img src="https://skillicons.dev/icons?i=git,github,githubactions,vercel,vscode,linux&theme=dark" />
-</p>
+<h4 align="center">Frontend</h4>
+<p align="center"><img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nextjs,tailwind,vite&theme=dark" /></p>
+<h4 align="center">Backend</h4>
+<p align="center"><img src="https://skillicons.dev/icons?i=python,flask,nodejs&theme=dark" /></p>
+<h4 align="center">Databases</h4>
+<p align="center"><img src="https://skillicons.dev/icons?i=postgres,sqlite&theme=dark" /></p>
+<h4 align="center">Tools &amp; Deploy</h4>
+<p align="center"><img src="https://skillicons.dev/icons?i=git,github,githubactions,vercel,vscode,linux&theme=dark" /></p>
 
 ## 🚀 Featured projects
 
-| Project | What it is | Links |
-|---|---|---|
-| ✈️ **SkyLink Aviation** | Flight booking, private charter and aircraft marketplace | [Live](https://skylink-aviation.vercel.app) |
-| 📶 **Tapnet Network** | ISP platform: plans, subscriptions, M-Pesa & Airtel Money payments, admin dashboard | [Repo](https://github.com/vivianwanjiku-gif/Tapnet_Network) · [Live](https://tapnet-network-udrn.vercel.app) |
-| 🧑🏾‍💻 **Portfolio** | Next.js + Tailwind portfolio with a dev terminal and a Snake game | [Repo](https://github.com/vivianwanjiku-gif/portfolio) · [Live](https://vivian-wanjiku-portfolio.vercel.app) |
-| 🪑 **Open Bench** | Crowd-sourced map of adult changing tables for caregivers (TypeScript) | [Repo](https://github.com/vivianwanjiku-gif/open-bench) · [Live](https://vivianwanjiku-gif.github.io/open-bench/) |
-| 📦 **Inventory Management** | E-commerce admin portal: Flask REST API, OpenFoodFacts, CLI, full tests | [Repo](https://github.com/vivianwanjiku-gif/INVENTORY_MANAGEMENT) |
-| 🏋🏾 **Workout API** | Flask + SQLAlchemy + Marshmallow API for trainers to manage workouts | [Repo](https://github.com/vivianwanjiku-gif/Workout-API) |
+### ✈️ SkyLink Aviation
+Aviation platform for aircraft sales listings and private charter quote requests.
+
+- Aircraft marketplace where listings stay unpublished until an admin approves them
+- Private charter quote requests
+- Accounts with email verification and role-based dashboards
+- Demo flight search with clearly labeled sample data
+
+**Built with:** Next.js · TypeScript · Tailwind · Auth.js · Prisma · PostgreSQL · Vitest  
+[Live](https://skylink-aviation.vercel.app) *(repo is private)*
+
+### 📶 Tapnet Network
+Prepaid internet (ISP) platform for customers in Kenya.
+
+- Plan comparison, subscriptions and line management
+- Customer and admin dashboards (customers, packages, routers, tickets, audit logs)
+- M-Pesa payments via Safaricom Daraja STK Push
+- Airtel Money payments via IntaSend, confirmed by webhook and status check
+- Server-set prices in KES, payments stored in Postgres, with tests
+
+**Built with:** React · Vite · Vercel Functions · PostgreSQL · Flask  
+[Live](https://tapnet-network-udrn.vercel.app) · [Repo](https://github.com/vivianwanjiku-gif/Tapnet_Network)
+
+### 🧑🏾‍💻 Portfolio
+My personal site, built from my live GitHub repositories.
+
+- Dark theme by default with a light/dark toggle
+- Mini terminal: `help`, `projects`, `skills`, `game` and more
+- Snake game with saved best score (and a Konami code bonus)
+- Repo data from the GitHub API with an offline fallback
+
+**Built with:** Next.js · TypeScript · Tailwind · shadcn/ui  
+[Live](https://vivian-wanjiku-portfolio.vercel.app) · [Repo](https://github.com/vivianwanjiku-gif/portfolio)
+
+### 🪑 Open Bench
+Crowd-sourced map of adult changing tables for disabled adults and caregivers.
+
+- Map and list views with filters and “use my location”
+- Station detail pages with access, hours, equipment and directions
+- Add-a-station form with validation and photo picker
+- Leaflet + OpenStreetMap, no API key needed
+
+**Built with:** React · TypeScript · Vite · Tailwind · shadcn/ui · Leaflet  
+[Live](https://vivianwanjiku-gif.github.io/open-bench/) · [Repo](https://github.com/vivianwanjiku-gif/open-bench)
+
+### 📦 Inventory Management
+E-commerce admin portal for managing product inventory.
+
+- Flask REST API with full CRUD
+- Search by product name or barcode
+- OpenFoodFacts integration to import real product data
+- Interactive CLI tool
+- 40+ unit tests with pytest
+
+**Built with:** Python · Flask · pytest  
+[Repo](https://github.com/vivianwanjiku-gif/INVENTORY_MANAGEMENT)
+
+### 🏋🏾 Workout API
+Backend API for trainers to manage workouts and exercises.
+
+- CRUD for workouts and exercises
+- Many-to-many workouts ↔ exercises with sets, reps and duration
+- Validation at database, model and schema levels
+- Cascade deletes and meaningful error messages
+
+**Built with:** Python · Flask · SQLAlchemy · Marshmallow · SQLite  
+[Repo](https://github.com/vivianwanjiku-gif/Workout-API)
 
 ## 📊 GitHub stats
 
@@ -47,6 +109,12 @@ I'm **Vivian**, a software developer based in Kenya. I build full-stack web apps
   <img src="https://streak-stats.demolab.com?user=vivianwanjiku-gif&theme=tokyonight&hide_border=true" />
 </p>
 
+## 📈 Contribution activity
+
+<p align="center">
+  <img width="100%" alt="contribution chart" src="https://ghchart.rshah.org/7aa2f7/vivianwanjiku-gif" />
+</p>
+
 ## 🐍 Contribution snake
 
 <p align="center">
@@ -56,11 +124,20 @@ I'm **Vivian**, a software developer based in Kenya. I build full-stack web apps
   </picture>
 </p>
 
+## 🎯 Current goals
+
+- Take Tapnet's M-Pesa and Airtel Money payments live on a real domain
+- Grow SkyLink Aviation with its first operator and charter clients
+- Go deeper with TypeScript, Next.js and backend design
+- Contribute to open-source projects
+- Keep shipping real products end to end, from UI to payments
+
 ## 🤝 Let's connect
 
 <p align="center">
   <a href="https://vivian-wanjiku-portfolio.vercel.app">🌐 vivian-wanjiku-portfolio.vercel.app</a> &nbsp;•&nbsp;
-  <a href="mailto:vividorpass@gmail.com">✉️ vividorpass@gmail.com</a>
+  <a href="mailto:vividorpass@gmail.com">✉️ vividorpass@gmail.com</a> &nbsp;•&nbsp;
+  <a href="https://github.com/vivianwanjiku-gif">💻 GitHub</a>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:6d28d9,100:0f172a&height=120&section=footer" width="100%" />
